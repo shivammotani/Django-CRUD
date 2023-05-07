@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'employee_register',
     'crispy_forms',
     'crispy_bootstrap5',
+    'rest_framework',
 
 ]
 
