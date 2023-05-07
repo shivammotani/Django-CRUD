@@ -85,12 +85,10 @@ WSGI_APPLICATION = 'employee_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'EmployeeDB',
-        'USER': 'cruduser',
-        'PASSWORD': 'cruduser',
+        'NAME': '<your_database_name>',
+        'USER': '<your_user_name>',
+        'PASSWORD': '<your_password>',
         'HOST': 'localhost'
-
-
     }
 }
 
